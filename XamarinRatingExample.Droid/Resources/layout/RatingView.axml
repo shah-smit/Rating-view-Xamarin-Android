@@ -61,4 +61,11 @@
         android:textSize="15sp"
         android:textColor="@android:color/black"
         android:layout_margin="20dp" />
+    <RatingBar
+        android:id="@+id/ratingbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ratingValue"
+        android:numStars="5"
+        android:stepSize="1.0" />
 </RelativeLayout>

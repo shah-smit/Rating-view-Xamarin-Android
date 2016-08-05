@@ -1639,6 +1639,9 @@ namespace XamarinRatingExample.Droid
 			// aapt resource value: 0x7f0b0063
 			public const int ratingValue = 2131427427;
 			
+			// aapt resource value: 0x7f0b0064
+			public const int ratingbar = 2131427428;
+			
 			// aapt resource value: 0x7f0b0015
 			public const int screen = 2131427349;
 			

@@ -1671,6 +1671,7 @@ containing a value of this type.
         public static final int radio=0x7f0b003b;
         public static final int ratingImageLayout=0x7f0b005d;
         public static final int ratingValue=0x7f0b0063;
+        public static final int ratingbar=0x7f0b0064;
         public static final int screen=0x7f0b0015;
         public static final int scrollIndicatorDown=0x7f0b0035;
         public static final int scrollIndicatorUp=0x7f0b0032;

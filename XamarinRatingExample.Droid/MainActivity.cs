@@ -15,6 +15,7 @@ namespace XamarinRatingExample.Droid
         private ImageView fourStar;
         private ImageView fiveStar;
         private TextView ratingValue;
+        private RatingBar ratingBar;
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -35,6 +36,11 @@ namespace XamarinRatingExample.Droid
             fiveStar.Click += ratingStar_Click;
 
             ratingValue = FindViewById<TextView>(Resource.Id.ratingValue);
+
+            ratingBar = FindViewById<RatingBar>(Resource.Id.ratingbar);
+            ratingBar.RatingBarChange += (sender, e) => {
+                ratingValue.Text = "User rating " + ratingBar.Rating.ToString();
+            };
 
         }
 
